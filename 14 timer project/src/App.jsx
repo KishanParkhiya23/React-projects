@@ -28,7 +28,8 @@ const App = memo(() => {
           <input type="number" onChange={handleChange} value={enteredNumber} />
           <button onClick={handleSetClick}>Set</button>
         </section>
-        <Counter initialCount={chosenCount} />
+        <Counter initialCount={chosenCount} key={chosenCount} />
+        <Counter initialCount={0}/>
       </main>
     </>
   );
