@@ -1,0 +1,11 @@
+.loaderComponent {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    width: 2rem;
+    height: 2rem
+}
